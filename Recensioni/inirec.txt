@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="it" lang="it">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="../Desktop_style.css"/>
+        <link rel="stylesheet" type="text/css" href="../Mobile_style.css" media="screen and (max-width:768px), only screen and (max-device-width:768px), handheld "/>
+        <meta http-equiv="Content-type" content="txt/html; charset=utf-8" />
+        <title>Recensioni - Seasons Hotel</title>
+        <meta name="title" content="Recensioni - Seasons Hotel" />
+        <meta name="description" content="Recensioni del Seasons Hotel a Padova" />
+        <meta name="keywords" content="Recensioni, Seasons Hotel, Hotel, Albergo, Padova, Veneto" />
+        <link rel="shortcut icon" href="../Hotel.ico" />
+        <script type="text/javascript" src="verifica.js"></script>
+    </head>
+    
+    <body>        
+        <div id="header_menu">
+            <h1><span xml:lang="en">Seasons</span></h1>
+            <span id="logo"></span>
+            <ul>
+                <li xml:lang="en"><a href="../index.html">Home</a></li>
+                <li><a href="../Camere/Camere.html">Camere e Prezzi</a></li>
+                <li><a href="../Servizi/Servizi.html">Servizi</a></li>
+                <li><a href="../Contatti e ind/Contatti e Indirizzo.html">Contatti e Indirizzo</a></li>
+                <li>Recensioni</li>
+            </ul>
+        </div>
+            
+        <div id="breadcrumb">Ti trovi in: Recensioni</div>
+        
+        <div class="titolo">
+            <h2>Recensioni</h2>
+        </div>
+        
+        <div id="recensioniClienti">

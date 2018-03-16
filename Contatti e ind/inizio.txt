@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="it" lang="it">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Contatti e Indirizzo-Seasons Hotel</title>
+        <link rel="stylesheet" type="text/css" href="../Desktop_style.css"/>
+        <link rel="stylesheet" type="text/css" href="../Mobile_style.css" media="screen and (max-width:768px), only screen and (max-device-width:768px), handheld "/>
+        <link rel="stylesheet" type="text/css" href="../Stampa.css" media="print" />
+        <meta http-equiv="Content-type" content="txt/html; charset=utf-8" />
+        <meta name="title" content="Numero di telefono,Email, Fax,Indirizzo-Seasons Hotel" />
+        <meta name="description" content="Come contattare e dove si trova il Seasons Hotel" />
+        <meta name="keywords" content="Seasons Hotel, Hotel, Contatti, Indirizzo, Albergo" />
+        <link rel="shortcut icon" href="../Hotel.ico" />
+        <script type="text/javascript" src="controlli.js"></script>
+    </head>
+    <body>
+        
+        <div id="header_menu">
+            <h1>Seasons</h1>
+            <span id="logo"></span>
+            <ul>
+                <li xml:lang="en"><a href="../index.html" tabindex="1">Home</a></li>
+                <li><a href="../Camere/Camere.html" tabindex="2">Camere e Prezzi</a></li>
+                <li><a href="../Servizi/Servizi.html" tabindex="3">Servizi</a></li>
+                <li>Contatti e Indirizzo</li>
+                <li><a href="../Recensioni/Recensioni.php" tabindex="4">Recensioni</a></li>
+            </ul>
+        </div>
+        
+        <div id="breadcrumb">Ti trovi in: Contatti e Indirizzo</div>
+        
+        <div class="titolo">
+            <h2>Contatti e Indirizzo</h2>
+        </div>
+        
+        <div id="contact">
+            <h3>Contattaci</h3>
+                <ul id="cont">
+                    <li>Telefono: +39 049 7701568</li>
+                    <li>Fax: +39 049 7701479</li>
+                    <li>E-mail: seasonshotel@hotel.it</li>
+                   
+                </ul>

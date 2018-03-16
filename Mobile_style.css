@@ -1,0 +1,171 @@
+/*
+==========================
+Header mobile
+==========================
+*/
+#logo {
+    float: none;
+    display: table;
+    margin:auto;
+    margin-top: 0.5em;
+}
+
+#header_menu ul{
+    float: none;
+    text-align: center;
+    margin:0;
+}
+
+#header_menu ul li{
+    display:block;
+    padding-right:0;
+    padding-bottom: 0.5em;
+}
+
+/*
+==========================
+box 2 x riga
+==========================
+*/
+.box {
+    width: 43%;
+    margin-left: 3.5%;
+}
+
+/*
+==========================
+Home mobile
+==========================
+*/
+
+
+#Home_content{
+    float:none;
+    width: 90%;
+    margin:auto;
+    padding-bottom: 1em;
+    padding-top:1em;
+    margin-top:2em;
+    font-size:1.0em;
+}
+
+
+#proposte{
+    overflow: auto;
+    float:none;
+    margin:auto;
+    margin-bottom:5em;
+    margin-top:2.0em;
+    width:70%;
+}
+.elenco{
+    padding-left:10%;
+}
+.altro{
+    margin-top: 0;
+}
+
+/*
+==========================
+Titolo piccolo
+==========================
+*/
+
+.titolo h2{
+    font-size:3.0em;
+}
+
+/*
+==========================
+Contatti
+==========================
+*/
+
+#contact, #indirizzo{
+    float:none;
+    margin:auto;
+}
+
+#contact{
+    width:80%;
+    margin-top:3em;
+    margin-bottom:5em;
+}
+#indirizzo{
+    width: 80%;
+    overflow: auto;
+    margin-bottom:3em;
+}
+
+#indirizzo img{
+    width: 98%;
+}
+
+#indirizzo h3,#indirizzo p, #contact h3{
+    text-align: center;
+}
+#seguici{
+    clear:none;
+    margin-right: 0em;
+}
+
+/*
+==========================
+Tabella camere
+==========================
+*/
+
+dl{
+    width: 80%;
+    float:none;
+    margin:auto;
+    margin-top:2.0em;
+    margin-bottom: 3.0em;
+}
+
+table {
+    float:none;
+    margin:auto;
+    width: 80%;
+}
+/*
+==========================
+SEZIONE RECENSIONI
+==========================
+*/
+
+#recensioniClienti{
+    width:85%;
+    float:none;
+    margin: auto;
+}
+
+.valut{
+    margin:auto;
+    float:none;
+    width:85%;
+    margin-top: 1.5em;
+}
+/*
+==========================
+SEZIONE FOOTER
+==========================
+*/
+
+#Link_su{
+    display: inline;
+    width: 2.0em;
+    height: 2.0em;
+    float: right;
+    margin: 1.0em;
+    background: url(Icone/su.png) no-repeat;
+   
+}
+#Torna_su{
+    display: inline;
+    float: right;
+    margin: 0;
+}
+#footer a{
+    margin-right:0.5em;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="it" lang="it">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="../Desktop_style.css"/>
+        <link rel="stylesheet" type="text/css" href="../Mobile_style.css" media="screen and (max-width:768px), only screen and (max-device-width:768px), handheld "/>
+        <meta http-equiv="Content-type" content="txt/html; charset=utf-8" />
+        <title>Seasons Hotel</title>
+        <meta name="title" content="Seasons Hotel" />
+        <meta name="description" content="Seasons Hotel a Padova, un nuovissimo e un accogliente design pensato con passione e realizzato con cura per accogliere visitatori, viaggiatori e turisti" />
+        <meta name="keywords" content="Seasons Hotel, Hotel,Albergo, Padova, Veneto" />
+        <link rel="shortut icon" href="../Hotel.ico" />
+        <meta name="robots" content="noindex, nofollow"/>
+    </head>
+
+    <body>
+
+        <div id="header_menu">
+            <h1>Seasons</h1>
+            <span id="logo"></span>
+            <ul>
+            <li><a href="../index.html">Torna alla Home</a></li>
+            </ul>
+        </div>

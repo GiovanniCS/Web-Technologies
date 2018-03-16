@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="it" lang="it">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="../Desktop_style.css"/>
+        <link rel="stylesheet" type="text/css" href="../Mobile_style.css" media="screen and (max-width:768px), only screen and (max-device-width:768px), handheld "/>
+        <meta http-equiv="Content-type" content="txt/html; charset=utf-8" />
+        <title>Recensioni - Seasons Hotel</title>
+        <meta name="title" content="Recensioni - Seasons Hotel" />
+        <meta name="description" content="Recensioni del Seasons Hotel a Padova" />
+        <meta name="keywords" content="Recensioni, Seasons Hotel, Hotel, Albergo, Padova, Veneto" />
+        <link rel="shortcut icon" href="../Hotel.ico" />
+        <script type="text/javascript" src="verifica.js"></script>
+    </head>
+    
+    <body>        
+        <div id="header_menu">
+            <h1><span xml:lang="en">Seasons</span></h1>
+            <span id="logo"></span>
+            <ul>
+                <li xml:lang="en"><a href="../index.html">Home</a></li>
+                <li><a href="../Camere/Camere.html">Camere e Prezzi</a></li>
+                <li><a href="../Servizi/Servizi.html">Servizi</a></li>
+                <li><a href="../Contatti e ind/Contatti e Indirizzo.html">Contatti e Indirizzo</a></li>
+                <li>Recensioni</li>
+            </ul>
+        </div>
+            
+        <div id="breadcrumb">Ti trovi in: Recensioni</div>
+        
+        <div class="titolo">
+            <h2>Recensioni</h2>
+        </div>
+        
+        <div id="recensioniClienti">
+            <form id="recensioni" method="post" action="inserisciRecensione.php" onsubmit="return check();" >
+                
+                <fieldset>
+                    <label for="nascosto">Valutazione: </label>
+                    <input type="text" name="nascosto" id="nascosto" value ="0" size="1" maxlength="1" onchange ="return s_accendi();" />
+                    <div id="valutazione"  >
+                    <ul>
+                        <li id="stelle_1" onmouseover="return star_accendi(1);" onclick="return star_accendi(1);"></li>
+                        <li id="stelle_2" onmouseover="return star_accendi(2);" onclick="return star_accendi(2);"></li>
+                        <li id="stelle_3" onmouseover="return star_accendi(3);" onclick="return star_accendi(3);"></li>
+                        <li id="stelle_4" onmouseover="return star_accendi(4);" onclick="return star_accendi(4);"></li>
+                        <li id="stelle_5" onmouseover="return star_accendi(5);" onclick="return star_accendi(5);"></li>
+                    </ul>
+                </div>
+                </fieldset>
+                    
+                <fieldset>
+                
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" size="20" maxlength="32" onblur="return checkNome();"/>
+                    <p class="p_errore" id="enome"></p>
+                    <label for="commento">Commento:</label>
+                    <textarea rows="6" cols="30" name="commento" id="commento" onblur="return checkCommento();" onkeyup="countChars('commento','charcount');"></textarea>
+                    <p>Caratteri rimanenti: <span id="charcount">256</span></p>
+                    <p class="p_errore" id="ecommento"></p>
+                    <input type="submit" name="invia" id="invia" value="Invia" />
+                    <input type="reset" name="reset" id="elimina" value="Elimina tutto" />
+
+                </fieldset>
+            </form>
+
+        </div>

@@ -1,0 +1,82 @@
+#header_menu{
+	display: none;
+}
+#proposte{
+	display: none;
+}
+#breadcrumb{
+	margin-top: 2.0em;
+	margin-bottom:2.0em;
+}
+#Home_content{
+	float: none;
+	width: 90%;
+	margin:auto;
+	margin-bottom: 4em;
+}
+.titolo h2{
+	display: none;
+}
+#Titolo_servizi h2{
+	display: none;
+}
+table caption{
+	margin-top: 100px;
+}
+table{
+	float:none;
+	margin:auto;
+	margin-top: 300px;
+}
+#Listino dl{
+	width: 40%;
+	float: none;
+	margin:auto;
+	margin-top: 4em;
+}
+#offerte_spec h3{
+	font-size: 1em;
+	color: black;
+	margin-top: 300px;
+}
+#contact form{
+	display: none;
+}
+#contact h3{
+	display: none;
+}
+#contact{
+	float:none;
+	width: 50%;
+	margin-left: 2em;
+	font-size: 1.2em;
+	margin-top: 2em;
+}
+#contact ul li{
+	color: black;
+}
+#indirizzo a, #indirizzo h3{
+	display: none;
+}
+#indirizzo{
+	font-size: 1.2em;
+	width: 60%;
+	margin-left: 2.2em;
+	float:none;
+}
+#indirizzo p{
+	color: black;
+}
+#torna_su{
+	display: none;
+}
+#seguici{
+	display: none;
+}
+#footer a{
+	display: none;
+}
+#info{
+	float:none;
+	width: 100%;
+}

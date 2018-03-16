@@ -1,0 +1,45 @@
+<form action="inserisci.php" method="post" id="form" onsubmit="return controllaTutto()">
+					<fieldset>
+						<label for="nome">Nome:</label>
+						    <input onblur="checkNome()" name="nome" id="nome" maxlength="32" />
+                            <p class="p_errore" id="enome"></p>
+						 <label for="cognome">Cognome:</label>
+						    <input onblur="checkCognome()" name="cognome" id="cognome" maxlength="32" />
+                            <p class="p_errore" id="ecognome"></p>
+						 <label for="email">Email:</label>
+						    <input onblur="checkEmail()" name="email" id="email" maxlength="64"/>
+                            <p class="p_errore" id="eemail"></p>
+						 <label for="telefono">Telefono:</label>
+						    <input onblur="checkPhone()" name="telefono" id="telefono" maxlength="16"/>
+                            <p class="p_errore" id="etelefono"></p>
+						 <label for="messaggio">Messaggio:</label>
+						    <textarea onkeyup="countChars('messaggio','charcount')" onblur="checkMessage()" rows="16" cols="30" id="messaggio" name="messaggio"></textarea>
+                            <p>Caratteri rimanenti: <span id="charcount">512</span></p>
+                            <p class="p_errore" id="emessaggio"></p>
+						 <input id="subm" type="submit" value="INVIA" />
+					</fieldset>
+				</form>
+
+		</div>
+		
+		<div id="indirizzo">
+            <h3> Dove si trova il nostro hotel</h3>
+            <p> Via San Francesco 28, 35121, Padova(PD) </p>
+			<a title="Apri Google Maps" tabindex="6" href="https://www.google.it/maps/place/Via+S.+Francesco,+28,+35121+Padova+PD/@45.4058226,11.8797991,16z/data=!4m5!3m4!1s0x477eda50d15334eb:0xee9fc5fdfc72b9dc!8m2!3d45.4058076!4d11.8794021.html"><img src="mappa.png" alt="mappa indicante la posizione dell'hotel"/></a>
+			<a id="pulsante" tabindex="7" href="https://www.google.it/maps/place/Via+S.+Francesco,+28,+35121+Padova+PD/@45.4058226,11.8797991,16z/data=!4m5!3m4!1s0x477eda50d15334eb:0xee9fc5fdfc72b9dc!8m2!3d45.4058076!4d11.8794021.html">Visualizza mappa più grande</a>
+		</div>
+        <p id="Torna_su"><a tabindex="10" title="Torna su!" href="#header_menu" id="Link_su"></a></p>
+		<div id="seguici">
+			  <h4>Cercaci su:</h4>
+              <a id="fb" title="Facebook" tabindex="9" href="https://www.facebook.com"></a>
+              <a id="tw" title="Twitter" tabindex="8" href="https://twitter.com"></a>
+		</div>
+        <div id="footer">
+            <div id="info">
+                <p>Seasons Hotel Padova - Via San Francesco 28 - 35121 - Padova(PD) </p>
+                <p>Telefono: +39 049 7701568 - Fax: +39 049 7701479 - E-mail: seasonshotel@hotel.it</p>
+            </div>
+            <a title="Login Amministratore" tabindex="11" href="../Amministrazione/accesso_amm.html"></a>
+        </div>
+    </body>
+</html>

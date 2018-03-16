@@ -1,0 +1,10 @@
+        <p id="Torna_su"><a title="Torna su!" href="#header_menu" id="Link_su"></a></p>
+        <div id="footer">
+            <div id="info">
+                <p><span xml:lang="en">Seasons Hotel</span> Padova - Via San Francesco 28 - 35121 - Padova(PD) </p>
+                <p>Telefono: +39 049 7701568 - Fax: +39 049 7701479 - <span xml:lang="en">Email</span>: seasonshotel@hotel.it</p>
+            </div>
+            <a title="Login Amministratore" href="../Amministrazione/accesso_amm.html" tabindex="8"></a>
+        </div>
+    </body>
+</html>

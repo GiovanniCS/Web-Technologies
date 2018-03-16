@@ -1,0 +1,488 @@
+html{
+    padding:0;
+	margin:0;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+    background: #FFFFFF url(backgr.jpg) repeat;
+	max-width: 1200px;
+    margin: auto;
+}
+a:link{
+	color: #0099CC ;
+}
+a:visited{
+	color: #FF4500;
+}
+a:link:hover{
+	font-style:italic;
+}
+a{
+	font-weight:bold;
+}
+
+/*
+==========================
+SEZIONE HEADER
+==========================
+*/
+#header_menu{
+    background-color: white;
+    overflow: auto;
+    padding-bottom:0;
+}
+
+#header_menu h1{
+    text-indent: -999em;
+    margin: 0;
+    float:left;
+}
+
+#logo {
+    background: url(seasons.png) no-repeat top left;
+    width:9em;
+    height:3em;
+    margin-top:0.7em;
+    margin-left:0.5em;
+    float:left;
+    
+}
+
+#header_menu ul{
+    float:right;
+    padding-top:1em;
+    padding-left:0;
+    padding-bottom:0.8em
+    
+}
+#header_menu ul li{
+    display: inline;
+    list-style:none;
+    padding-right:1.0em;
+}
+
+
+#breadcrumb{
+    clear: both;
+	color:#FFFFFF;
+	background-color:#003366;
+	font-weight: bold;
+	padding:0.2em;
+}
+
+/*
+==========================
+HOME
+==========================
+*/
+#Home_content{
+    float:right;
+	margin-top: 2em;
+	width: 68%;
+	/*font-size:0.9em;*/
+	text-align:center;
+	background-color:#FFFFFF;
+	padding-left:1em;
+	margin-bottom: 4em;
+	padding-right: 1em;
+}
+
+#Home_content h2{
+	font-size: 3.0em;
+	font-family: monospace;
+	margin-bottom: 0.2em;
+}
+
+#Home_content p{
+	padding-top: 0.5em;
+}
+
+#proposte{
+	float:left;
+	width:25%;
+	border:1px solid #003366;
+	margin-top:1.9em;
+	margin-right:1em;
+	background-color:#FFFFFF;
+	margin-bottom:5em;
+}
+#proposte ul{
+    margin-bottom:0;
+    padding-bottom:0;
+}
+#proposte h2{
+    margin-top:0; 
+}
+#secondo_h{
+    clear:both;
+}
+.titolobox{
+
+	background-color: #003366;
+	color:#FFFFFF;
+	text-align:center;
+	padding: 0.6em;
+	font-size: 1em;
+}
+.elenco{
+	padding:1.5em;
+	padding-right:1em;
+	font-size:0.9em;
+}
+.altro{
+	padding-bottom:0.2em;
+	padding-right:1.3em;
+	float:right;
+}
+/*
+==========================
+SERVIZI
+==========================
+*/
+#Titolo_servizi {
+    background: url(titolobg.png);
+    margin-bottom: 2em;
+}
+#Titolo_servizi p {
+    font-weight: bold;
+    margin:0;
+    padding-bottom:1.0em;
+    padding-left:1.0em;
+    padding-right:1.0em;
+}
+#Titolo_servizi h2{
+    text-align: center;
+    margin:0;
+    padding-top:0.2em;
+    padding-bottom:0em;
+    font-size: 4em;
+    font-family: monospace;
+    font-weight: 100;
+}
+#Servizi_content{
+    overflow: auto;
+}
+.box {
+    width: 29%;
+    float:left;
+    margin-left:2.6%;
+    color: white;
+    background: #003366;
+    margin-bottom: 2em;
+    padding: 0.3em;
+    padding-bottom: 0;
+}
+.box p{
+    margin: 0;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+}
+.box img{
+    width: 100%;
+}
+/*
+==========================
+CAMERE
+==========================
+*/
+.titolo{
+	background: url(titolobg.png);
+	margin-bottom: 2em; 
+}
+.titolo p {
+    font-weight: bold;
+    margin:0;
+    padding-bottom:1.0em;
+    padding-left:1.0em;
+    padding-right:1.0em;
+}
+.titolo h2{
+    text-align: center;
+    margin:0;
+    padding-top:0.2em;
+    padding-bottom:0.5em;
+    font-size: 4em;
+    font-family: monospace;
+    font-weight: 100;
+}
+#Camere_content{
+    overflow: auto;
+    margin-bottom:3.0em;
+}
+table {
+	float:right;
+    margin-right:2.6%;
+    width: 63%;
+    background-color: white;
+}
+caption{
+    margin-bottom: 1.0em;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+thead{
+    background-color: #DDD;
+}
+tbody{
+    border-collapse: collapse;
+}
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+.even {
+    background-color: #DDD;
+}
+dl{
+	width: 30%;
+	float:left;
+	margin-top:3.0em;
+	margin-left:2.6%;
+}
+dt,dd{
+	padding:0.2em;
+}
+#offerte_spec{
+	clear:both;
+	overflow:auto;
+}
+#offerte_spec h3{
+	margin-left: 2.6%;
+    font-size: 3.0em;
+    margin-top: 1.0em;
+    color: #003366;
+}
+/*
+==========================
+Contatti e inf
+==========================
+*/
+#contact{
+	margin-left: 2%;
+	width:35%;
+	float:left;
+}
+#form{
+	width:100%;
+}
+#contact h3, #indirizzo h3{
+	color:#003366;
+	font-size:2.0em;
+}
+#contact ul{
+	padding-left:1em;
+}
+
+#cont li{
+	color: #003366;
+	font-weight:bold;
+	padding-bottom: 0.5em;
+}
+#php_err li{
+	color: red;
+	font-size: 0.8em;
+}
+fieldset{
+	border: none;
+	padding: 0;
+	margin: 0;	
+}
+label{
+	color: #003366;
+	font-weight: bold;
+}
+input{
+	width:100%;
+	border: 2px solid #003366;
+	
+}
+textarea{
+	width:100%;
+	border: 2px solid #003366;
+}
+.p_errore{
+	color:red;
+}
+#subm{
+	width:30%;
+}
+#indirizzo{
+	width:50%;
+	float:right;
+	margin-right:2%;
+}
+#indirizzo p{
+	color: #003366;
+	font-weight:bold;
+}
+#indirizzo img{
+	width:98%;
+	border: 3px solid #003366;
+}
+#pulsante{
+	width: 53%;
+	margin-left: 23%;
+	padding: 0.5em;
+	float:left;
+	border: 1px solid #003366;
+	background-color:#FFFFFF;
+	margin-bottom:1em;
+	text-align:center;	
+}
+#seguici{
+	clear:both;
+	float:right;	
+	margin-top: 1.2em;
+    margin-right: 1em;
+}
+#seguici h4{
+	font-size:1.5em;
+	color:#003366;
+	display:inline;	
+}
+#fb,#tw{
+	margin-left: 0.4em;
+	float:right;
+	display: inline;
+	width:2.0em;
+	height: 2.0em;
+}
+#tw{
+	background: url(Icone/Twitter.png) no-repeat;
+}
+#fb{
+	background: url(Icone/Facebook.png) no-repeat;
+}
+/*
+==========================
+SEZIONE RECENSIONI
+==========================
+*/
+#recensioniClienti{
+	margin-left: 2%;
+	width:30%;
+	float:left;
+}
+#valutazione ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#valutazione li
+{
+  width: 2em;
+  height: 2em;
+  display: block;
+  float: left;
+  background: url('Icone/star-off.png') no-repeat;
+  cursor: pointer;
+}
+#valutazione li.on
+{
+  background: url('Icone/star-on.png') no-repeat;
+}
+#invia, #elimina{
+	margin-top: 0.3em;
+	width:38%;
+}
+#invia{
+	margin-left: 10%;
+}
+#elimina{
+	margin-left:0.3em;
+
+}
+.valut{
+	color:white;
+	width: 55%;
+	float:right;
+	margin-bottom: 1.5em;
+	margin-right: 0.5em;
+	background-color: #0d0a4f;
+    border: 0.5em solid #3f94b3;
+    padding: 0.5em;
+}
+.valut ul{
+	width: 80%;
+}
+.valut ul li{
+	list-style:none;
+}
+.valut a:visited{
+	color: #0099CC;
+}
+#nascosto{
+	width: 1em;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+#p_rec{
+	color:#0d0d62;
+	text-align: center;
+}
+/*
+==========================
+SEZIONE AUTENTICAZIONE
+==========================
+*/
+#autenticazione {
+	width: 70%;
+	margin:auto;
+	margin-top:2em;
+	max-width: 20em;
+}
+#autenticazione legend{
+	margin-bottom: 1em;
+	color: #003366;
+	font-size: 1.5em;
+}
+#inv{
+	margin-top:1em;
+	width: 35%;
+}
+#amm_err{
+	text-align: center;
+	margin-top: 1em;
+	color: red;
+}
+.inbox{
+	margin:auto;
+    width:85%;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: #477844;
+    border: 0.5em solid #79c565;
+}
+.inbox a:visited{
+	color: #0099CC;
+}
+/*
+==========================
+SEZIONE FOOTER
+==========================
+*/
+#Link_su,#Torna_su{
+	display: none;
+}
+#footer{
+	clear:both;
+	color:#FFFFFF;
+	background-color:#003366;
+	text-align: center;
+	font-style: italic;
+	overflow: auto;
+}
+#info{
+    width: 85%;
+    float: left;
+}
+#footer a{
+	width:2.0em;
+	height: 2.0em;
+	float:right;
+	margin-top:1.5em;
+	margin-right:1.5em;
+	background: url(Icone/lock.png) no-repeat;
+}

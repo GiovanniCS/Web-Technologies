@@ -1,0 +1,42 @@
+<form id="recensioni" method="post" action="inserisciRecensione.php" onsubmit="return check();" >
+                
+                <fieldset>
+                    <label for="nascosto">Valutazione: </label>
+                    <input type="text" name="nascosto" id="nascosto" value ="0" size="1" maxlength="1" onchange ="return s_accendi();" />
+                    <div id="valutazione"  >
+                    <ul>
+                        <li id="stelle_1" onmouseover="return star_accendi(1);" onclick="return star_accendi(1);"></li>
+                        <li id="stelle_2" onmouseover="return star_accendi(2);" onclick="return star_accendi(2);"></li>
+                        <li id="stelle_3" onmouseover="return star_accendi(3);" onclick="return star_accendi(3);"></li>
+                        <li id="stelle_4" onmouseover="return star_accendi(4);" onclick="return star_accendi(4);"></li>
+                        <li id="stelle_5" onmouseover="return star_accendi(5);" onclick="return star_accendi(5);"></li>
+                    </ul>
+                </div>
+                </fieldset>
+                    
+                <fieldset>
+                
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" size="20" maxlength="32" onblur="return checkNome();"/>
+                    <p class="p_errore" id="enome"></p>
+                    <label for="commento">Commento:</label>
+                    <textarea rows="6" cols="30" name="commento" id="commento" onblur="return checkCommento();" onkeyup="countChars('commento','charcount');"></textarea>
+                    <p>Caratteri rimanenti: <span id="charcount">256</span></p>
+                    <p class="p_errore" id="ecommento"></p>
+                    <input type="submit" name="invia" id="invia" value="Invia" />
+                    <input type="reset" name="reset" id="elimina" value="Elimina tutto" />
+
+                </fieldset>
+            </form>
+
+        </div>        
+        <p id="Torna_su"><a title="Torna su!" href="#header_menu" id="Link_su"></a></p>
+        <div id="footer">
+            <div id="info">
+                <p><span xml:lang="en">Seasons Hotel</span> Padova - Via San Francesco 28 - 35121 - Padova(PD) </p>
+                <p>Telefono: +39 049 7701568 - Fax: +39 049 7701479 - <span xml:lang="en">Email</span>: seasonshotel@hotel.it</p>
+            </div>
+            <a title="Login Amministratore" href="../Amministrazione/accesso_amm.html" tabindex="8"></a>
+        </div>
+    </body>
+</html>
