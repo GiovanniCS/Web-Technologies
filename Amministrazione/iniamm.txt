@@ -27,7 +27,7 @@
                 <legend>Credenziali d'accesso</legend>
                 <label for="nomeAmm">Nome Amministratore</label>
                 <input type="text" maxlength="32" id="nomeAmm" name="nomeAmm" />
-                <label for="pass">Passoword</label>
+                <label for="pass">Password</label>
                 <input type="password" maxlength="32" id="pass" name="pass" />
                 <input id="inv" type="submit" name="submit" value="Autenticati"/>
             </fieldset>
